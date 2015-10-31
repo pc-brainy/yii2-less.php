@@ -36,7 +36,7 @@ $config = [
             ...
             'converter' => [
                 'class' => 'pc-brainy\lessphp\AssetConverter',
-                'force'=> true,     // Optional: On true will convert all .less files. You can make changes in variable.less, and
+                'force'=> true,     // Optional: On true will convert all .less files. You can make all changes in variable.less
                 'compress' => true, // Optional: You can tell less.php to remove comments and whitespace to generate minimized css files.
                 'useCache' => true, // Optional: less.php will save serialized parser data for each .less file. Faster, but more memory-intense.
                 //'cacheDir' => null, // Optional: is passed to the SetCacheDir() method. By default "cakebake\lessphp\runtime" is used.
