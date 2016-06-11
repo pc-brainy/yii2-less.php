@@ -10,13 +10,14 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist pc-brainy/yii2-less.php "*"
+composer require --prefer-dist pc-brainy/yii2-less.php "dev-master"
+
 ```
 
 or add
 
 ```
-"pc-brainy/yii2-less.php": "*"
+"pc-brainy/yii2-less.php": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
