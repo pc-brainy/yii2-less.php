@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-		"oyejorge/less.php": "dev-master"
+        "yiisoft/yii2": "dev-master",
+	"oyejorge/less.php": "dev-master"
     },
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
